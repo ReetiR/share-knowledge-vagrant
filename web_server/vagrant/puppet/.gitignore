@@ -1,0 +1,3 @@
+Puppetfile.lock
+/.librarian/**
+/.tmp/**

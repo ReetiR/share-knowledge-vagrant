@@ -1,0 +1,8 @@
+forge "https://forge.puppetlabs.com"
+
+mod "puppetlabs/mysql"
+mod "puppetlabs/mongodb"
+mod "thomasvandoren/redis"
+mod "jfryman/nginx"
+mod "example42/php",
+    :git => "git://github.com/example42/puppet-php.git"
