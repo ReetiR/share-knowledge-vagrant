@@ -13,7 +13,7 @@
 class akserver {
 
   $domain = 'shareknowledge.com'
-  $subdomain = 'api'
+  $subdomain = 'api-dev'
   $hostname = "${subdomain}.${domain}"
   $www_root = '/home/vagrant/Code/api/public'
   $mysql_password = 'shareknowledge'

@@ -10,8 +10,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # use the ubuntu 14.04 box
     web.vm.box = "ubuntu/trusty64"
 
-    # set the hostname of the box to api.pucho.com
-    web.vm.hostname = "api.shareknowledge.com"
+    # set the hostname of the box to api.shareknowledge.com
+    web.vm.hostname = "api-dev.shareknowledge.com"
 
     # set the IP of the VM
     web.vm.network "private_network", ip: "192.168.51.2"
